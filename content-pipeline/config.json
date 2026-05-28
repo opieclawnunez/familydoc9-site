@@ -1,0 +1,10 @@
+{
+  "site_url": "https://docnunez.com",
+  "legacy_site": "https://familydoc9.wordpress.com",
+  "wordpress_api": "https://public-api.wordpress.com/wp/v2/sites/familydoc9.wordpress.com",
+  "raw_dir": "content-pipeline/data/raw",
+  "draft_dir": "content-pipeline/output/drafts",
+  "promotion_dir": "content-pipeline/output/promotion-packages",
+  "topic_priority_keywords": ["blood pressure", "hypertension", "diabetes", "prevention", "screening", "heat", "phoenix", "arizona", "west valley", "air quality", "respiratory", "heart", "mental health", "caregiver", "family", "vaccine", "immunization"],
+  "medical_review_keywords": ["diagnosis", "treatment", "medication", "dose", "supplement", "cure", "cancer", "pregnancy", "children", "emergency", "FDA", "guideline", "screening"]
+}

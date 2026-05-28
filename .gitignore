@@ -1,0 +1,5 @@
+content-pipeline/scripts/__pycache__/
+*.pyc
+content-pipeline/data/
+content-pipeline/output/
+content-pipeline/reports/
