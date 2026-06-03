@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Primary care visit for obesity and diabetes treatment planning</title>
+  <desc id="desc">Warm editorial illustration of a clinician and patient reviewing glucose trends, treatment options, movement, nutrition, and follow-up.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbf7f1"/><stop offset="1" stop-color="#dcebe7"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c96943"/><stop offset="1" stop-color="#567b74"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#1f2933" flood-opacity=".14"/></filter>
+  </defs>
+  <rect width="1200" height="720" rx="42" fill="url(#bg)"/>
+  <circle cx="1030" cy="118" r="145" fill="#c96943" opacity=".10"/>
+  <circle cx="156" cy="630" r="170" fill="#567b74" opacity=".13"/>
+  <g filter="url(#shadow)">
+    <rect x="118" y="105" width="964" height="510" rx="34" fill="#fffdf9" stroke="#e2d4c4"/>
+  </g>
+  <g transform="translate(170 150)">
+    <rect x="0" y="0" width="365" height="325" rx="26" fill="#f4ebe0"/>
+    <path d="M62 246c28-84 87-126 171-126 55 0 97 20 127 60" fill="none" stroke="#567b74" stroke-width="18" stroke-linecap="round" opacity=".35"/>
+    <circle cx="130" cy="108" r="42" fill="#c96943" opacity=".78"/>
+    <circle cx="250" cy="98" r="42" fill="#567b74" opacity=".78"/>
+    <path d="M78 255h242" stroke="#2e6276" stroke-width="20" stroke-linecap="round" opacity=".8"/>
+    <path d="M95 298h190" stroke="#c96943" stroke-width="14" stroke-linecap="round" opacity=".75"/>
+  </g>
+  <g transform="translate(590 145)">
+    <text x="0" y="22" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#1f2933">Metabolic health plan</text>
+    <text x="0" y="62" font-family="Inter, Arial, sans-serif" font-size="18" fill="#5e6b78">Medication • nutrition • movement • monitoring</text>
+    <rect x="0" y="94" width="410" height="86" rx="20" fill="#f6efe5" stroke="#e2d4c4"/>
+    <path d="M34 142h58l36-28 42 44 44-70 54 54h110" fill="none" stroke="#c96943" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="0" y="210" width="118" height="118" rx="22" fill="#dcebe7"/>
+    <path d="M36 268c17-34 45-44 72-30" fill="none" stroke="#567b74" stroke-width="10" stroke-linecap="round"/>
+    <rect x="146" y="210" width="118" height="118" rx="22" fill="#f4ebe0"/>
+    <circle cx="205" cy="269" r="33" fill="none" stroke="#c96943" stroke-width="10"/>
+    <path d="M205 236v32l24 18" fill="none" stroke="#c96943" stroke-width="10" stroke-linecap="round"/>
+    <rect x="292" y="210" width="118" height="118" rx="22" fill="#e8f0ee"/>
+    <path d="M326 287c26 16 56 16 82 0M337 253c18-12 37-12 55 0" fill="none" stroke="#2e6276" stroke-width="10" stroke-linecap="round"/>
+    <rect x="0" y="365" width="410" height="34" rx="17" fill="url(#accent)" opacity=".9"/>
+    <rect x="0" y="421" width="300" height="18" rx="9" fill="#e2d4c4"/>
+    <rect x="0" y="455" width="360" height="18" rx="9" fill="#e2d4c4"/>
+  </g>
+</svg>
