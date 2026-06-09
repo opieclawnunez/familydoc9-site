@@ -1,10 +1,11 @@
 # Launch Package: The Future of Telehealth Post-Pandemic: A Professional Perspective
 
-Published article: https://docnunez.com/the-future-of-telehealth.html
+Published article: https://docnunez.com/future-of-telehealth-post-pandemic.html
+- LinkedIn: https://docnunez.com/future-of-telehealth-post-pandemic.html?utm_source=linkedin&utm_medium=social&utm_campaign=future-of-telehealth-post-pandemic&utm_content=expert_commentary
 
 ## Selection rationale
 
-Chosen from the WordPress modernization candidate report (score: 89, 906 words) because it ranks highly for patient relevance, supports the {content_pillar} content pillar, and has strong evergreen appeal for family medicine patients.
+Chosen from the WordPress modernization candidate report (score: 89, 906 words) because it ranks highly for patient relevance, supports the Healthcare Innovation content pillar, and has strong evergreen appeal for family medicine patients.
 
 ## Editorial review notes
 
@@ -18,55 +19,20 @@ Chosen from the WordPress modernization candidate report (score: 89, 906 words) 
 
 ## Tracking URLs
 
-- Newsletter: https://docnunez.com/the-future-of-telehealth.html?utm_source=newsletter&utm_medium=email&utm_campaign=the-future-of-telehealth&utm_content=main_cta
-- Facebook: https://docnunez.com/the-future-of-telehealth.html?utm_source=facebook&utm_medium=social&utm_campaign=the-future-of-telehealth&utm_content=hook_1
-- Instagram: https://docnunez.com/the-future-of-telehealth.html?utm_source=instagram&utm_medium=social&utm_campaign=the-future-of-telehealth&utm_content=bio_link
-- LinkedIn: https://docnunez.com/the-future-of-telehealth.html?utm_source=linkedin&utm_medium=social&utm_campaign=the-future-of-telehealth&utm_content=expert_commentary
+- Newsletter: https://docnunez.com/future-of-telehealth-post-pandemic.html?utm_source=newsletter&utm_medium=email&utm_campaign=future-of-telehealth-post-pandemic&utm_content=main_cta
+- Facebook: https://docnunez.com/future-of-telehealth-post-pandemic.html?utm_source=facebook&utm_medium=social&utm_campaign=future-of-telehealth-post-pandemic&utm_content=hook_1
+- Instagram: https://docnunez.com/future-of-telehealth-post-pandemic.html?utm_source=instagram&utm_medium=social&utm_campaign=future-of-telehealth-post-pandemic&utm_content=bio_link
+- LinkedIn: https://docnunez.com/future-of-telehealth-post-pandemic.html?utm_source=linkedin&utm_medium=social&utm_campaign=future-of-telehealth-post-pandemic&utm_content=expert_commentary
 
-## Newsletter draft
+## LinkedIn post
 
-Subject: The Future of Telehealth Post-Pandemic: A Professional Perspective: What's new, what still matters
+Telehealth has stabilized at ~17% of all patient visits — a massive shift from pre-pandemic days. But the conversation has moved from "should we use it?" to "how do we use it well?"
 
-Preview text: A practical physician guide to the future of telehealth post-pandemic: a professional perspective: newer options, safety considerations, and the foundations that still matter.
+I published a practical patient-facing guide on where telehealth stands in 2025: sustained adoption rates, Medicare policy extensions through 2025, FQHC/RHC permanent authorizations, state licensure compacts, and the clinical sweet spots (chronic disease management, mental health, post-surgical follow-ups).
 
-Body intro:
-The Future of Telehealth Post-Pandemic: A Professional Perspective has evolved significantly in recent years. Newer medications, monitoring tools, and procedural options have expanded the toolkit — but the basics of good care haven't changed.
-
-This new article walks through what's genuinely new, what's marketing vs. evidence, and how to think about treatment as a complete plan rather than a quick fix. Written for patients, not researchers.
-
-CTA: Read the full article
-
-## Social copy
-
-### Facebook / Instagram
-
-New article from Manuel Nunez, MD: The Future of Telehealth Post-Pandemic: A Professional Perspective.
-
-A practical, patient-facing guide covering the latest options, safety considerations, and the everyday basics that still matter. Written for real patients making real decisions.
-
-Read it here: https://docnunez.com/the-future-of-telehealth.html?utm_source=facebook&utm_medium=social&utm_campaign=the-future-of-telehealth&utm_content=hook_1
-
-### LinkedIn
-
-As a family physician, I see patients navigate the future of telehealth post-pandemic: a professional perspective every day. The landscape has shifted — new evidence, new tools, new options — but the fundamentals of good care remain the same.
-
-I published a practical, patient-facing guide covering what's new, what's proven, and what still matters when making decisions about the future of telehealth post-pandemic: a professional perspective.
-
-This isn't a research summary. It's the conversation I'd have in the exam room: clear options, straight talk about trade-offs, and a framework for deciding what's right for you.
+This isn't a policy paper. It's the framework I give patients deciding between a video visit and driving to the office: when virtual care works brilliantly, when in-person is safer, and how to prepare for a better telehealth appointment.
 
 Read it here:
-https://docnunez.com/the-future-of-telehealth.html?utm_source=linkedin&utm_medium=social&utm_campaign=the-future-of-telehealth&utm_content=expert_commentary
+https://docnunez.com/future-of-telehealth-post-pandemic.html?utm_source=linkedin&utm_medium=social&utm_campaign=future-of-telehealth-post-pandemic&utm_content=expert_commentary
 
-#FamilyMedicine #PatientEducation #EvidenceBasedMedicine #PrimaryCare #PreventiveHealth
-
-### Instagram (visual)
-
-The Future of Telehealth Post-Pandemic: A Professional Perspective
-
-New guidance on the future of telehealth post-pandemic: a professional perspective — what's changed, what hasn't, and how to think about it with your doctor.
-
-Clickable link in bio: docnunez.com
-
-#FamilyMedicine #PatientEducation #PrimaryCare #PreventiveHealth #HealthLiteracy
-
-Image URL: https://docnunez.com/assets/media/telehealth-guide.jpg
+#FamilyMedicine #Telehealth #HealthcareInnovation #PrimaryCare #PatientEducation

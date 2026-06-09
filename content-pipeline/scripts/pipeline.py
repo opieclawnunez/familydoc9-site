@@ -253,6 +253,33 @@ def sitemap(args):
     print('wrote sitemap.xml and robots.txt')
 
 
+def publish(args):
+    """Copy draft HTML files to repo root, commit, and push to main."""
+    import shutil
+    draft_dir = ROOT / CONFIG['draft_dir']
+    if not draft_dir.exists():
+        print("No drafts to publish")
+        return
+    html_files = list(draft_dir.glob('*.html'))
+    if not html_files:
+        print("No draft HTML files found")
+        return
+    for src in html_files:
+        dst = ROOT / src.name
+        shutil.copy2(src, dst)
+        print(f"published {src.name} -> {dst}")
+    # Commit and push
+    import subprocess
+    try:
+        subprocess.run(['git', 'add', '.'], cwd=ROOT, check=True)
+        subprocess.run(['git', 'commit', '-m', f'Auto-publish: {len(html_files)} article(s)'], cwd=ROOT, check=True)
+        subprocess.run(['git', 'push', 'origin', 'main'], cwd=ROOT, check=True)
+        print("pushed to main - GitHub Pages will deploy automatically")
+    except subprocess.CalledProcessError as e:
+        print(f"Git error: {e}")
+        raise SystemExit(1)
+
+
 def main():
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest='cmd', required=True)
@@ -261,6 +288,7 @@ def main():
     mod = sub.add_parser('modernize'); mod.add_argument('--slug', required=True); mod.set_defaults(func=modernize)
     sub.add_parser('seo').set_defaults(func=seo)
     sub.add_parser('sitemap').set_defaults(func=sitemap)
+    pub = sub.add_parser('publish'); pub.set_defaults(func=publish)
     args = ap.parse_args(); args.func(args)
 
 if __name__ == '__main__':
