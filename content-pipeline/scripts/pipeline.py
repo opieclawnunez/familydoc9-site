@@ -272,9 +272,14 @@ def publish(args):
     import subprocess
     try:
         subprocess.run(['git', 'add', '.'], cwd=ROOT, check=True)
-        subprocess.run(['git', 'commit', '-m', f'Auto-publish: {len(html_files)} article(s)'], cwd=ROOT, check=True)
-        subprocess.run(['git', 'push', 'origin', 'main'], cwd=ROOT, check=True)
-        print("pushed to main - GitHub Pages will deploy automatically")
+        # Check if there's anything staged to commit
+        diff = subprocess.run(['git', 'diff', '--cached', '--quiet'], cwd=ROOT)
+        if diff.returncode == 0:
+            print("No new changes to publish (already up to date)")
+        else:
+            subprocess.run(['git', 'commit', '-m', f'Auto-publish: {len(html_files)} article(s)'], cwd=ROOT, check=True)
+            subprocess.run(['git', 'push', 'origin', 'main'], cwd=ROOT, check=True)
+            print("pushed to main - GitHub Pages will deploy automatically")
     except subprocess.CalledProcessError as e:
         print(f"Git error: {e}")
         raise SystemExit(1)
