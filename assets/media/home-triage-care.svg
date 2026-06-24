@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A family physician talking with a patient at home about symptom management and when to seek care">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fef7ef"/>
+      <stop offset="100%" stop-color="#f0e6d8"/>
+    </linearGradient>
+    <linearGradient id="house" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8d5b8"/>
+      <stop offset="100%" stop-color="#d4bf9a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <!-- House interior outline -->
+  <rect x="120" y="60" width="360" height="280" rx="8" fill="none" stroke="#b8a88a" stroke-width="2"/>
+  <!-- Window -->
+  <rect x="380" y="90" width="70" height="60" rx="4" fill="#c8e6ff" stroke="#9ab8cc" stroke-width="1.5"/>
+  <line x1="415" y1="90" x2="415" y2="150" stroke="#9ab8cc" stroke-width="1"/>
+  <line x1="380" y1="120" x2="450" y2="120" stroke="#9ab8cc" stroke-width="1"/>
+  <!-- Phone -->
+  <rect x="240" y="220" width="28" height="48" rx="5" fill="#2c3e50" stroke="#1a252f" stroke-width="1.5"/>
+  <rect x="244" y="226" width="20" height="32" rx="2" fill="#4a90d9"/>
+  <circle cx="254" cy="263" r="2" fill="#1a252f"/>
+  <!-- Stethoscope -->
+  <path d="M190 180 Q170 200 175 230 Q180 260 210 260" fill="none" stroke="#4a6fa5" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="210" cy="260" r="6" fill="#4a6fa5"/>
+  <!-- Person 1 (patient) -->
+  <circle cx="190" cy="160" r="18" fill="#f5d0b0"/>
+  <rect x="172" y="180" width="36" height="50" rx="6" fill="#7ba7cc"/>
+  <!-- Person 2 (physician) -->
+  <circle cx="310" cy="155" r="18" fill="#e8c49a"/>
+  <rect x="292" y="175" width="36" height="55" rx="6" fill="#4a6fa5"/>
+  <rect x="304" y="175" width="12" height="8" rx="2" fill="white"/>
+  <!-- Clipboard -->
+  <rect x="145" y="200" width="22" height="30" rx="2" fill="#f0f0f0" stroke="#aaa" stroke-width="1"/>
+  <line x1="150" y1="208" x2="162" y2="208" stroke="#ccc" stroke-width="1"/>
+  <line x1="150" y1="214" x2="162" y2="214" stroke="#ccc" stroke-width="1"/>
+  <line x1="150" y1="220" x2="158" y2="220" stroke="#ccc" stroke-width="1"/>
+  <!-- Cross symbol on house -->
+  <rect x="288" y="78" width="6" height="20" rx="1" fill="#d4654a"/>
+  <rect x="282" y="84" width="18" height="8" rx="1" fill="#d4654a"/>
+  <!-- Speech bubble -->
+  <path d="M340 200 Q340 185 355 185 L400 185 Q415 185 415 200 L415 220 Q415 235 400 235 L370 235 L355 255 L355 235 L355 235 Q340 235 340 220 Z" fill="white" stroke="#ccc" stroke-width="1.5"/>
+  <text x="355" y="212" font-family="sans-serif" font-size="12" fill="#555" font-weight="600">Call your team?</text>
+  <!-- Small phone icon inside bubble -->
+  <rect x="390" y="196" width="10" height="16" rx="2" fill="#4a6fa5"/>
+</svg>
