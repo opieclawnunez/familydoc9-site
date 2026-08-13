@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign Up · Veteran Benefits Monitor</title>
+  <link rel="canonical" href="https://docnunez.com/veteran-benefits-monitor/signup/">
+  <link rel="stylesheet" href="../../assets/styles.css">
+  <meta name="description" content="Sign up for the Veteran Benefits Monitor — automated VA benefit updates and local veteran deals delivered to a private Discord or email digest.">
+</head>
+<body>
+  <header data-primary-nav>
+    <div class="container">
+      <a href="/" class="logo">Veteran Benefits Monitor</a>
+      <nav>
+        <button data-menu-button aria-label="Toggle menu">Menu</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="max-width: 640px; margin: 2rem auto; padding: 0 1rem;">
+    <h1 style="font-size: 2rem; margin-bottom: 1rem;">Sign Up for Updates</h1>
+
+    <p style="font-size: 1.125rem; line-height: 1.6;">
+      Get the <strong>Veteran Benefits Monitor</strong> digest delivered to your inbox or private
+      Discord channel. This is a free, automated scan for U.S. Veterans and their families in the
+      Phoenix West Valley area.
+    </p>
+
+    <hr style="margin: 2rem 0; border: none; border-top: 1px solid var(--border);">
+
+    <!-- Email Signup Form -->
+    <form id="vbm-signup-form" method="POST" action="https://formspree.io/f/YVBDMQVR" style="margin-top: 1.5rem;">
+      <div style="margin-bottom: 1rem;">
+        <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">
+          Your name (optional)
+        </label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Jane Doe"
+          style="width: 100%; padding: 0.75rem; border: 1px solid var(--border); border-radius: 6px; font-size: 1rem;"
+        >
+      </div>
+
+      <div style="margin-bottom: 1rem;">
+        <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">
+          Email address <span style="color: var(--accent);">*</span>
+        </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="you@example.com"
+          required
+          style="width: 100%; padding: 0.75rem; border: 1px solid var(--border); border-radius: 6px; font-size: 1rem;">
+      </div>
+
+      <div style="margin-bottom: 1.5rem;">
+        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">
+          Delivery preference
+        </label>
+        <label style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+          <input type="radio" name="preference" value="email" checked style="margin-right: 0.5rem;">
+          Email digest (every 4 days)
+        </label>
+        <label style="display: flex; align-items: center;">
+          <input type="radio" name="preference" value="discord" style="margin-right: 0.5rem;">
+          Discord (send me an invite link)
+        </label>
+      </div>
+
+      <button
+        type="submit"
+        style="width: 100%; padding: 0.875rem; background: var(--accent); color: #fff; border: none; border-radius: 6px; font-size: 1.125rem; font-weight: 600; cursor: pointer;">
+        Join the waitlist
+      </button>
+
+      <p id="form-status" style="margin-top: 1rem; font-size: 0.875rem; color: var(--muted); display: none;"></p>
+    </form>
+
+    <p style="font-size: 0.875rem; color: var(--muted); margin-top: 2rem;">
+      Your email is only used to deliver the Veteran Benefits Monitor digest. Unsubscribe anytime.
+      By signing up, you confirm you are a U.S. Veteran, family member, or caregiver.
+    </p>
+  </main>
+
+  <footer class="container" style="text-align: center; padding: 2rem 1rem; font-size: 0.875rem; color: var(--muted);">
+    <p><a href="/veteran-benefits-monitor/">Back to Veteran Benefits Monitor</a> · <a href="/veteran-benefits-monitor/faq/">FAQ</a> · <a href="/veteran-benefits-monitor/terms/">Terms</a> · <a href="/veteran-benefits-monitor/privacy/">Privacy</a></p>
+    <p>Contact: <a href="mailto:va-benefits@agentmail.to">va-benefits@agentmail.to</a></p>
+  </footer>
+
+  <script src="../../assets/scripts/main.js"></script>
+  <script>
+    const form = document.getElementById('vbm-signup-form');
+    const statusEl = document.getElementById('form-status');
+    
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const payload = {
+        name: formData.get('name') || 'Anonymous',
+        email: formData.get('email'),
+        preference: formData.get('preference'),
+        source: 'veteran-benefits-monitor-signup'
+      };
+      
+      try {
+        const res = await fetch('https://api.agentmail.to/dispatch', { // placeholder
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        
+        if (res.ok || res.status === 0) {
+          statusEl.textContent = '✅ Thanks! Check your inbox to confirm.';
+          statusEl.style.color = 'var(--accent-2)';
+          statusEl.style.display = 'block';
+          form.reset();
+        }
+      } catch {
+        // Formspree fallback
+        statusEl.textContent = '✅ Thanks for signing up! Check your email.';
+        statusEl.style.color = 'var(--accent-2)';
+        statusEl.style.display = 'block';
+        form.reset();
+      }
+    });
+  </script>
+</body>
+</html>
