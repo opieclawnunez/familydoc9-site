@@ -1,10 +1,11 @@
 # Launch Package: Stay Safe in the August Heat: What It Means for You and Your Family in the West Valley
 
-**Published article:** https://docnunez.com/summer-heat-safety-west-valley-families-outdoor-workers/
-**LinkedIn:** https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fdocnunez.com%2Fsummer-heat-safety-west-valley-families-outdoor-workers%2F%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial%26utm_campaign%3Dsummer-heat-safety-west-valley-families-outdoor-workers%26utm_content%3Darticle_announcement
-**Slug:** summer-heat-safety-west-valley-families-outdoor-workers
-**Week:** 2026-33
-**Generated:** Monday, August 17, 2026 (America/Phoenix MST, UTC-7)
+Published article: https://docnunez.com/summer-heat-safety-west-valley-families-outdoor-workers/
+- LinkedIn: https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fdocnunez.com%2Fsummer-heat-safety-west-valley-families-outdoor-workers%2F%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial%26utm_campaign%3Dsummer-heat-safety-west-valley-families-outdoor-workers%26utm_content%3Darticle_announcement
+
+Slug: summer-heat-safety-west-valley-families-outdoor-workers
+Week: 2026-33
+Generated: Monday, August 17, 2026 (America/Phoenix MST, UTC-7)
 
 ## LinkedIn post
 
@@ -40,6 +41,6 @@ Schedule your next appointment with Dr. Nunez and the Prosano Health Team. Visit
 
 ## Media
 
-**Hero image:** /opt/fleet/workspace/repos/familydoc9-site/content-pipeline/output/weekly-2026-33/hero.jpg (FLUX 2 Klein 9B, 16:9, 2048×1152)
-**Section image:** /opt/fleet/workspace/repos/familydoc9-site/content-pipeline/output/weekly-2026-33/section-1.jpg (FLUX 2 Klein 9B, 1:1, 2048×2048)
-**Promo clip:** /opt/fleet/workspace/repos/familydoc9-site/content-pipeline/hyperframes/promo-summer-heat-safety-west-valley-families-outdoor-workers.mp4 (HyperFrames, 1920×1080, 16.0s, H.264)
+Hero image: /opt/fleet/workspace/repos/familydoc9-site/content-pipeline/output/weekly-2026-33/hero.jpg (FLUX 2 Klein 9B, 16:9, 2048×1152)
+Section image: /opt/fleet/workspace/repos/familydoc9-site/content-pipeline/output/weekly-2026-33/section-1.jpg (FLUX 2 Klein 9B, 1:1, 2048×2048)
+Promo clip: /opt/fleet/workspace/repos/familydoc9-site/content-pipeline/hyperframes/promo-summer-heat-safety-west-valley-families-outdoor-workers.mp4 (HyperFrames, 1920×1080, 16.0s, H.264)

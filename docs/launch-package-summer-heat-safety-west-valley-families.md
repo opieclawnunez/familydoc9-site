@@ -1,39 +1,38 @@
-# Launch Package: Summer Heat Safety for West Valley Families
+# Launch Package: Summer Heat Safety: What It Means for You and Your Family in the West Valley
 
-Published article: https://docnunez.com/summer-heat-safety-west-valley-families.html
-
-## Selection rationale
-
-Chosen as the top featured article on docnunez.com — highly relevant to the local Phoenix/West Valley audience during peak summer heat season. Strong evergreen appeal for family medicine patients and caregivers.
-
-## Editorial review notes
-
-- Patient-facing guide to heat safety for families in the Phoenix West Valley
-- Covers heat exhaustion recognition, dehydration prevention, and when to go to the ER
-- Includes medical safety disclaimer and when-to-see-a-doctor guidance
-- SEO metadata: title, description, canonical, OpenGraph, JSON-LD MedicalWebPage
-- Hero image: heat-safety-families.svg
-
-## Tracking URLs
-
-- LinkedIn: https://docnunez.com/summer-heat-safety-west-valley-families.html?utm_source=linkedin&utm_medium=social&utm_campaign=summer-heat-safety-west-valley-families&utm_content=expert_commentary
-- Facebook: https://docnunez.com/summer-heat-safety-west-valley-families.html?utm_source=facebook&utm_medium=social&utm_campaign=summer-heat-safety-west-valley-families&utm_content=hook_1
-- Instagram: https://docnunez.com/summer-heat-safety-west-valley-families.html?utm_source=instagram&utm_medium=social&utm_campaign=summer-heat-safety-west-valley-families&utm_content=bio_link
+**Published article:** https://docnunez.com/summer-heat-safety-west-valley-families/
+**Slug:** summer-heat-safety-west-valley-families
+**Week:** 2026-W34
+**Generated:** Mon Aug 17 10:00 MST 2026 (America/Phoenix)
 
 ## LinkedIn post
 
-As a family physician practicing in the West Valley, I see the effects of Phoenix summer heat on patients every single day — from dehydration in kids to heat exhaustion in outdoor workers.
+It's mid-August in the West Valley, and the heat isn't letting up. As a family-medicine physician, I see the same pattern every summer — patients showing up dehydrated, exhausted, or worse because the heat caught them off guard. Most of it is preventable. This week's article covers why August feels different (cumulative heat stress + monsoon humidity), five simple habits that actually help, how to tell heat exhaustion from heat stroke, and when to call the doctor. If you or someone you care about spends time outdoors in this heat, it's worth a few minutes.
 
-I published a practical guide for families covering how to recognize heat exhaustion, prevent dehydration, and know exactly when it's time to go to the ER.
+Read the full article: https://docnunez.com/summer-heat-safety-west-valley-families/
 
-This isn't theoretical. It's the advice I give patients every June through September:
+Schedule your next appointment with Dr. Nunez and the Prosano Health Team. Visit prosanohealth.com to book online, or call the office. New patients welcome.
 
-🌡️ Early signs of heat exhaustion most people miss
-💧 How much water kids and adults actually need in 110°F+ heat
-🚨 Red flags that mean go to the ER now, don't wait
-👶 Special precautions for infants, elderly, and pets
+## Facebook post
 
-Read it here:
-https://docnunez.com/summer-heat-safety-west-valley-families.html?utm_source=linkedin&utm_medium=social&utm_campaign=summer-heat-safety-west-valley-families&utm_content=expert_commentary
+Summer heat safety for West Valley families and outdoor workers — practical guidance from Dr. Nunez. What to watch for, what actually helps, and when heat goes too far.
 
-#FamilyMedicine #HeatSafety #WestValley #Phoenix #SummerSafety #PatientEducation #PreventiveHealth
+Read more: https://docnunez.com/summer-heat-safety-west-valley-families/
+
+Schedule your next appointment with Dr. Nunez and the Prosano Health Team. Visit prosanohealth.com to book online, or call the office. New patients welcome.
+
+## Instagram caption
+
+Summer Heat Safety: What It Means for You and Your Family in the West Valley ☀️
+
+It's mid-August in the West Valley and the heat isn't letting up. This week's article covers why August feels different, five simple heat-safety habits that actually work, how to tell heat exhaustion from heat stroke, and when to call the doctor. Practical, patient-facing guidance for families, outdoor workers, and anyone facing another Arizona summer. Link in bio: docnunez.com
+
+#FamilyMedicine #PrimaryCare #PreventiveHealth #PeoriaAZ #WestValley #ProsanoHealth #HeatSafety #ArizonaSummer
+
+Schedule your next appointment with Dr. Nunez and the Prosano Health Team. Visit prosanohealth.com to book online, or call the office. New patients welcome.
+
+## Media
+
+**Hero image:** /opt/fleet/workspace/repos/familydoc9-site/content-pipeline/output/2026-W34/hero.jpg
+**Section image:** /opt/fleet/workspace/repos/familydoc9-site/content-pipeline/output/2026-W34/section-1.jpg
+**Promo clip:** /opt/fleet/workspace/repos/familydoc9-site/content-pipeline/output/2026-W34/promo-summer-heat-safety-west-valley-families.mp4
