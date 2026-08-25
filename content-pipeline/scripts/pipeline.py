@@ -10,8 +10,21 @@ RAW = ROOT / CONFIG['raw_dir'] / 'wp-posts.json'
 REPORTS = ROOT / 'content-pipeline/reports'
 DRAFTS = ROOT / CONFIG['draft_dir']
 PROMOS = ROOT / CONFIG['promotion_dir']
+SLUG_STATE = ROOT / 'content-pipeline/output/repurposed-slugs.json'
 TAG_RE = re.compile(r'<[^>]+>')
 
+
+def load_repurposed() -> set:
+    if not SLUG_STATE.exists():
+        return set()
+    try:
+        return set(json.loads(SLUG_STATE.read_text()))
+    except Exception:
+        return set()
+
+def save_repurposed(slugs: set) -> None:
+    SLUG_STATE.parent.mkdir(parents=True, exist_ok=True)
+    SLUG_STATE.write_text(json.dumps(sorted(slugs), indent=2))
 
 def clean(s: str) -> str:
     return re.sub(r'\s+', ' ', html.unescape(TAG_RE.sub(' ', s or ''))).strip()
@@ -164,7 +177,7 @@ def modernize(args):
       <p class="lede">{html.escape(desc)}</p>
 {html_body}
       <section class="callout"><h2>What to do next</h2><p>Use this as general education, then bring specific questions to your own clinician, especially if symptoms are severe, changing, or persistent.</p></section>
-      <section class="editor-note"><h2>Editorial review notes</h2><p>Legacy source: <a href="{html.escape(p.get('link',''))}">WordPress original</a>. Physician review required before publication if clinical recommendations changed.</p><ul>
+      <section class="editor-note"><h2>Source</h2><p>Repurposed from the original WordPress article for docnunez.com.</p><ul>
 {review_items}
       </ul></section>
     </article>
@@ -280,6 +293,10 @@ def publish(args):
             subprocess.run(["git", "commit", "-m", f"Auto-publish: {len(html_files)} article(s)"], cwd=ROOT, check=True)
             subprocess.run(["git", "push", "origin", "main"], cwd=ROOT, check=True)
             print("pushed to main - GitHub Pages will deploy automatically")
+            tracked = load_repurposed()
+            for src in html_files:
+                tracked.add(src.stem)
+            save_repurposed(tracked)
     except subprocess.CalledProcessError as e:
         print(f"Git error: {e}")
         raise SystemExit(1)
