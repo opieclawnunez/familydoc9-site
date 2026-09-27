@@ -1,0 +1,12 @@
+# docnunez.com approval-gated article pipeline
+
+`docnunez.com` is a static site. The old `familydoc9.wordpress.com` site is a topic archive, **not** a source of verified clinical advice or ready-to-publish copy. This code prepares files but does not publish.
+
+1. `python3 content-pipeline/scripts/archive_topics.py --limit 25` lists leads from the public WordPress.com v1.1 API. This is a lead queue, not an approval queue. Do not use the legacy `inventory` command: the old REST API endpoint is absent.
+2. Select a topic, research and check clinical claims and currency, then draft in Manny's own voice. Manny reviews clinical content and tone.
+3. Get Manny's explicit WhatsApp approval of **the exact final copy and destination** before publishing. Approval of the pipeline or a topic is not approval of an article. Save approved input JSON with `title`, `slug`, `summary`, `category`, `date` (YYYY-MM-DD), `blocks` and optional `source_url`. Each block is `{"type":"paragraph"|"heading", "text":"..."}` or `{"type":"list", "items":["..."]}`. All text is plain text, not HTML. Do not put unreviewed clinical copy in the repository.
+4. Recheck the approved input against the latest main branch and run `python3 content-pipeline/scripts/prepare_article.py approved.json --dry-run`, then without `--dry-run`. The preparer creates exactly `<slug>.html`, one listing card in `articles.html`, and one `sitemap.xml` URL. It refuses duplicate slugs and never commits or pushes.
+5. Review those three files and the diff against approved copy. **Only after article-specific approval**, narrowly stage `git add -- <slug>.html articles.html sitemap.xml` on main; inspect `git diff --cached` before commit/push. Do not use `git add .`. The legacy `publish` command is disabled and cannot bypass this gate.
+6. Wait for the GitHub Pages deployment, then verify the live article, card and sitemap URL. A branch/PR is review-only and is not publication. Cross-posting to social platforms or newsletters requires separate destination/copy permission; this pipeline never automates it.
+
+A synthetic placeholder test must be made only in an isolated copy, never committed or deployed as patient content.
