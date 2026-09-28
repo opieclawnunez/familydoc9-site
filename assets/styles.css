@@ -189,3 +189,7 @@ main { padding: 2rem 0 3.5rem; }
 .article-illustration {margin: 0 0 1.8rem;}
 .article-illustration img {display:block;width:100%;height:auto;max-height:540px;object-fit:cover;border-radius:14px;}
 .article-illustration figcaption {font-size:.8rem;opacity:.72;margin-top:.55rem;}
+
+/* Article listing art already carries its own headline. */
+.media-card:has(a[href="intensive-lifestyle-modification.html"]) img {height:auto;aspect-ratio:1080/1350;object-fit:cover;display:block;}
+.media-card:has(a[href="intensive-lifestyle-modification.html"]) .media-copy h3 {display:none;}
