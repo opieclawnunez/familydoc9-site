@@ -175,3 +175,12 @@ main { padding: 2rem 0 3.5rem; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
 }
+/* Audit follow-up: readable doctor profile and article discovery. */
+.about-portrait { margin: 0; overflow: hidden; border-radius: var(--radius-xl); background: var(--surface); border: 1px solid var(--border); }
+.about-portrait img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; }
+.article-tools { max-width: 48rem; padding: 1.25rem; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); }
+.article-tools label { display: block; font-weight: 700; margin-bottom: 0.45rem; }
+.article-tools .input { max-width: 100%; }
+.article-tools .small-meta { margin: 0.5rem 0 0; }
+.media-card[hidden] { display: none !important; }
+:where(a, button, input, select, textarea):focus-visible { outline: 3px solid var(--accent-2); outline-offset: 3px; }
