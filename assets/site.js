@@ -3,8 +3,8 @@
   const nav = document.querySelector('[data-primary-nav]');
   const menuButton = document.querySelector('[data-menu-button]');
   const themeButton = document.querySelector('[data-theme-button]');
-  const form = document.querySelector('[data-newsletter-form]');
-  const status = document.querySelector('[data-form-status]');
+  const articleSearch = document.querySelector('[data-article-search]');
+  const articleCount = document.querySelector('[data-article-count]');
 
   const savedTheme = localStorage.getItem('familydoc9-theme');
   const preferredDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -16,6 +16,14 @@
     const expanded = menuButton.getAttribute('aria-expanded') === 'true';
     menuButton.setAttribute('aria-expanded', String(!expanded));
     nav?.classList.toggle('open', !expanded);
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && nav?.classList.contains('open')) {
+      nav.classList.remove('open');
+      menuButton?.setAttribute('aria-expanded', 'false');
+      menuButton?.focus();
+    }
   });
 
   nav?.querySelectorAll('a').forEach((link) => {
@@ -55,12 +63,18 @@
     node.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${path}"></path></svg>`;
   });
 
-  form?.addEventListener('submit', (event) => {
-    event.preventDefault();
-    if (status) {
-      status.textContent = 'Thanks — this demo form is ready to connect to your email provider.';
-      status.style.color = 'var(--accent-2)';
-    }
-    form.reset();
-  });
+  if (articleSearch) {
+    const cards = [...document.querySelectorAll('.article-grid .media-card')];
+    const update = () => {
+      const q = articleSearch.value.trim().toLocaleLowerCase();
+      let shown = 0;
+      cards.forEach((card) => {
+        const match = !q || card.textContent.toLocaleLowerCase().includes(q);
+        card.hidden = !match;
+        if (match) shown++;
+      });
+      if (articleCount) articleCount.textContent = q ? `${shown} article${shown === 1 ? '' : 's'} found` : '';
+    };
+    articleSearch.addEventListener('input', update);
+  }
 })();
