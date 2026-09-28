@@ -184,3 +184,8 @@ main { padding: 2rem 0 3.5rem; }
 .article-tools .small-meta { margin: 0.5rem 0 0; }
 .media-card[hidden] { display: none !important; }
 :where(a, button, input, select, textarea):focus-visible { outline: 3px solid var(--accent-2); outline-offset: 3px; }
+
+/* Illustrated article lead */
+.article-illustration {margin: 0 0 1.8rem;}
+.article-illustration img {display:block;width:100%;height:auto;max-height:540px;object-fit:cover;border-radius:14px;}
+.article-illustration figcaption {font-size:.8rem;opacity:.72;margin-top:.55rem;}
