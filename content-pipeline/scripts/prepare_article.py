@@ -89,6 +89,11 @@ def render_article(data):
     <section class="article-layout"><article class="article article-body">
 {chr(10).join(body)}
 {source}
+        <aside class="callout" aria-label="Follow-up and appointments">
+          <h3>Questions about your result?</h3>
+          <p>Make an appointment with your primary care provider. If you'd like to see Dr. M. Nunez at Prosano Health, call <a href="tel:+18557767266">(855) 776-7266</a> or visit <a href="https://www.prosanohealth.com/">Prosano Health</a> to ask about eligibility and availability.</p>
+        </aside>
+        <p class="source-note">This is a general discussion, not medical advice for your particular situation. Your own care needs an assessment with your clinician in person.</p>
     </article></section>
   </main>
   <footer class="footer"><div class="site-shell footer-inner"><small><strong>The Family Doc Blog</strong> &mdash; educational information only. Not a substitute for individualized medical advice.</small></div></footer>
