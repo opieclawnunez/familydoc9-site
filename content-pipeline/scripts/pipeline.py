@@ -5,7 +5,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 CONFIG = json.loads((ROOT / 'content-pipeline/config.json').read_text())
-API = CONFIG['wordpress_api'].rstrip('/')
+# The legacy WordPress REST endpoint is unavailable. Use archive_topics.py instead.
+API = None
 RAW = ROOT / CONFIG['raw_dir'] / 'wp-posts.json'
 REPORTS = ROOT / 'content-pipeline/reports'
 DRAFTS = ROOT / CONFIG['draft_dir']
@@ -41,27 +42,7 @@ def fetch_json(url: str):
 
 
 def inventory(args):
-    RAW.parent.mkdir(parents=True, exist_ok=True)
-    posts = []
-    for page in range(1, args.max_pages + 1):
-        qs = urllib.parse.urlencode({
-            'per_page': args.per_page,
-            'page': page,
-            '_fields': 'id,date,modified,slug,link,title,excerpt,content,categories,tags'
-        })
-        try:
-            batch, headers = fetch_json(f'{API}/posts?{qs}')
-        except urllib.error.HTTPError as e:
-            if e.code == 400 and page > 1:
-                break
-            raise
-        posts.extend(batch)
-        print(f'fetched page={page} count={len(batch)} total={len(posts)}')
-        if page >= int(headers.get('X-WP-TotalPages') or page):
-            break
-        time.sleep(0.15)
-    RAW.write_text(json.dumps(posts, indent=2, ensure_ascii=False))
-    print(f'saved {len(posts)} posts to {RAW}')
+    raise SystemExit('Legacy inventory is disabled: use archive_topics.py with the public WordPress.com v1.1 API.')
 
 
 def score_post(p):
@@ -267,39 +248,7 @@ def sitemap(args):
 
 
 def publish(args):
-    """Copy draft HTML files to repo root, commit, and push to main."""
-    import shutil
-    draft_dir = ROOT / CONFIG["draft_dir"]
-    if not draft_dir.exists():
-        print("No drafts to publish")
-        return
-    html_files = list(draft_dir.glob("*.html"))
-    if not html_files:
-        print("No draft HTML files found")
-        return
-    for src in html_files:
-        dst = ROOT / src.name
-        shutil.copy2(src, dst)
-        print(f"published {src.name} -> {dst}")
-    # Commit and push
-    import subprocess
-    try:
-        subprocess.run(["git", "add", "."], cwd=ROOT, check=True)
-        # Check if there's anything staged to commit
-        diff = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT)
-        if diff.returncode == 0:
-            print("No new changes to publish (already up to date)")
-        else:
-            subprocess.run(["git", "commit", "-m", f"Auto-publish: {len(html_files)} article(s)"], cwd=ROOT, check=True)
-            subprocess.run(["git", "push", "origin", "main"], cwd=ROOT, check=True)
-            print("pushed to main - GitHub Pages will deploy automatically")
-            tracked = load_repurposed()
-            for src in html_files:
-                tracked.add(src.stem)
-            save_repurposed(tracked)
-    except subprocess.CalledProcessError as e:
-        print(f"Git error: {e}")
-        raise SystemExit(1)
+    raise SystemExit('Legacy publish is disabled: review exact copy and destination with Manny, then stage only the approved article, articles.html, and sitemap.xml by hand.')
 
 
 def main():
