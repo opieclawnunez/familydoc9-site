@@ -1,0 +1,52 @@
+# The Family Doc Blog - Dr. Manuel Nunez
+
+> Plain-English health guidance from Dr. Manuel Nunez, a family physician in the Phoenix West Valley, Arizona. Each article explains a common condition, screening, or prevention topic the way he would in the exam room, with a stepwise plan and clear signs of when to call the doctor. Content is general education, not personal medical advice. Dr. Nunez practices at Prosano Health Solutions, (855) 776-7266.
+
+## About
+- [About Dr. Nunez](https://docnunez.com/about.html): His background, training, and practice.
+- [Why this site exists](https://docnunez.com/site-purpose.html): What the site is for and who it serves.
+- [Medical disclaimer](https://docnunez.com/disclaimer.html): General education, not personal medical advice.
+
+## Articles
+- [Your Cholesterol Is Not a Report Card](https://docnunez.com/cholesterol-not-a-report-card.html): The lab result is a starting point, not a verdict on your character. Get a plan that fits your actual heart risk.
+- [Cranberry Juice Is Not a UTI Plan](https://docnunez.com/cranberry-juice-not-a-uti-plan.html): A bladder infection needs the right care, not a juice aisle strategy.
+- [Heartburn Doesn't Need a Holiday Sequel](https://docnunez.com/heartburn-holiday-sequel.html): Occasional heartburn happens. Before you reach for another antacid, try a few changes - and learn the symptoms you should never brush off.
+- [The 2 A.M. Bathroom Trip Is Not a Personality Trait.](https://docnunez.com/enlarged-prostate-bph-symptoms.html): If you&#x27;re a man over 50 and your bladder wakes you up more than your alarm does, that&#x27;s not just getting older. An enlarged prostate is one common cause - and whatever the cause, it&#x27;s worth getting checked, because there&#x27;s plenty we can do about it.
+- [You Can't Feel High Blood Pressure. That's the Trap.](https://docnunez.com/high-blood-pressure-catch-early.html): Nearly half of U.S. adults have high blood pressure, most feel nothing, and only about 1 in 4 who have it keep it controlled. How to catch it early and what actually brings it down.
+- [The Once-a-Year Scan That Can Catch Lung Cancer Early](https://docnunez.com/lung-cancer-scan-catch-early.html): Who actually qualifies for the yearly lung cancer scan, what it feels like, what it costs, and the honest trade-offs - from USPSTF, ACS, and Medicare rules.
+- [The Nosebleed Move Your Grandmother Got Wrong](https://docnunez.com/nosebleed-move-grandmother-got-wrong.html): The right way to stop a nosebleed: lean forward, pinch the soft part, and give it a full 10 to 15 minutes. Plus how to prevent the next one, and when a nosebleed is not just a nosebleed.
+- [Do You Really Need an MRI for That Back Pain?](https://docnunez.com/do-you-need-an-mri-back-pain.html): Most new low back pain gets better on its own. When an MRI actually helps, when it just scares you, the red flags that mean do not wait, and what works in the first few weeks.
+- [It's Not a Cold. It's October.](https://docnunez.com/phoenix-fall-allergies-not-a-cold.html): That three-week.
+- [Week 1: the walk that isn't a workout](https://docnunez.com/heart-walk-week-1-walk-not-workout.html): Week 1 of couch-to-Heart-Walk: a 5:30am walk, a run nobody recorded, and the Sunday walk that saved the week. Why the easy days count.
+- [I'm a doctor and I'm still starting from the couch](https://docnunez.com/doctor-starting-from-the-couch-heart-walk.html): A family doctor starts a couch-to-3-miles plan at 56 for the November 14 West Valley Heart Walk. Day 1 recap, a four-week run-walk plan, and when to check in first.
+- [You're not lazy. You're just not sleeping.](https://docnunez.com/sleep-7-hours-habits.html): Adults need at least 7 hours of sleep. A family doctor on why most of us fall short, simple habits that help, and when poor sleep is worth a visit.
+- [The screening test everybody dodges, and why you shouldn't](https://docnunez.com/colorectal-cancer-screening-45-to-75.html): Most people should start colorectal cancer screening around 45. A family doctor explains your test options, who needs to start earlier, and symptoms that should not wait.
+- [The flu shot didn't give you the flu. I promise.](https://docnunez.com/flu-shot-myths-and-timing.html): Sore arm, low fever, achy day: what the flu shot can and cannot do, who benefits most, and when to get it, from a family doctor.
+- [Fall insurance you can do next to the kitchen counter](https://docnunez.com/strength-and-balance-fall-prevention.html): Falls are not just bad luck. A simple chair-stand routine, two days a week, plus a short checklist to cut fall risk, from a family doctor.
+- [The cough that won't quit](https://docnunez.com/chronic-cough-when-to-call.html): A cough that lingers after a cold deserves a plan. What a chronic cough can mean, what to track, red flags, and what to bring to the visit.
+- [Intensive lifestyle modification is not a boot camp](https://docnunez.com/intensive-lifestyle-modification.html): What intensive lifestyle care for obesity actually means, when it fits, and who can help, explained by a family doctor.
+- [Prediabetes without panic](https://docnunez.com/prediabetes-without-panic.html): An unexpected A1c is a reason to make a plan, not to panic. What prediabetes means, what helps, and when to follow up with your doctor.
+- [Achieving healthy appetite suppression like the GLP-1s](https://docnunez.com/achieving-healthy-appetite-suppression-like-glp1.html): 8 evidence-backed ways to help manage hunger naturally: water preloading, protein at breakfast, slow eating, better sleep. A family doctor&#x27;s no-prescription guide.
+- [Turmeric, black pepper, and the wellness myth-check](https://docnunez.com/turmeric.html): A short, grounded wellness note about turmeric, black pepper, curcumin, and what the evidence does and does not say.
+- [Stomach pain: how to decode abdominal pain and know when to get help](https://docnunez.com/why-does-your-stomach-hurt-decode-the-mystery-and-find-relief.html): Stomach pain explained by a family doctor: common causes, what location can tell you, home care, red flags, and when to get urgent care.
+- [Obesity and diabetes treatment: what is new and what still matters](https://docnunez.com/innovations-in-obesity-and-diabetes-treatment.html): A family physician explains modern obesity and type 2 diabetes treatment: GLP-1 medicines, SGLT2 inhibitors, CGMs, bariatric options, prior authorization, and the basics that still matter.
+- [Managing complex health at home: when to call your Prosano team vs. heading to the ER](https://docnunez.com/managing-complex-health-at-home.html): A practical guide for patients with multiple chronic conditions: how to manage symptoms at home, when to call your Prosano care team, and when the ER is the right call. Reduce unnecessary ER visits and stay healthier.
+- [The Silicon Valley of the Desert: Optimizing Cognitive Performance for Tech Professionals](https://docnunez.com/silicon-valley-of-the-desert-optimizing-cognitive-performance-tech.html): Tech-focused strategies for West Valley professionals in high-performance roles: cognitive stamina, stress resilience, sleep architecture, and metabolic stability to sustain focus and reduce burnout.
+- [Mental health policy overhaul: bridging gaps in care — and what it means for you](https://docnunez.com/mental-health-policy-overhaul-2024.html): A family physician explains the 2024 mental health policy changes — telehealth access, workforce expansion, insurance reform — and what they mean for patients seeking care.
+- [The future of telehealth post-pandemic: a professional perspective](https://docnunez.com/future-of-telehealth-post-pandemic.html): A family physician's perspective on the future of telehealth after the pandemic: sustained adoption, policy changes, and how virtual care fits into modern primary care.
+- [Hypertension 101: How to Keep Your Blood Pressure in Check](https://docnunez.com/hypertension-101-how-to-keep-your-blood-pressure-in-check.html): High blood pressure basics from a family doctor: risk factors, everyday habits that help, and when medication comes into the picture.
+- [How to monitor blood pressure at home](https://docnunez.com/blood-pressure.html): How to measure blood pressure at home, understand the numbers, and know when high readings need follow-up with your doctor.
+- [Why childhood immunizations matter for children and communities](https://docnunez.com/childhood-immunizations.html): A plain-language guide to childhood vaccines: how they work, what they prevent, why timing matters, and how they protect the community.
+- [Why delaying healthcare costs more than time](https://docnunez.com/delaying-healthcare.html): Why people put off care, what waiting can cost, and how to tell when it is time to act sooner. A practical guide to making the next step easier.
+- [Self-care for busy moms and caregivers](https://docnunez.com/self-care.html): Low-friction self-care for busy moms and caregivers: rest, boundaries, movement, sleep, and asking for help.
+- [Family support that fits real life](https://docnunez.com/family-support-guide.html): A guide for the day-to-day realities of caregiving and parenting.
+- [Healthy aging starts with strength](https://docnunez.com/healthy-aging-guide.html): A practical primer on strength and mobility for healthy aging, from a family doctor.
+- [Mental health & resilience](https://docnunez.com/mental-health.html): Supportive guidance for stress, sleep, burnout, and support.
+- [Prevention & screening](https://docnunez.com/prevention-screening.html): Routine care, screening, and practical prevention guidance.
+- [How global health improves with context](https://docnunez.com/global-health-evaluation.html): A grounded look at global health evaluation: why data gaps matter, how mobile health helps, and why local adaptation is essential.
+- [Stay Safe in the August Heat: What It Means for You and Your Family in the West Valley](https://docnunez.com/summer-heat-safety-west-valley-families-outdoor-workers.html): Practical heat-safety guidance for families, outdoor workers, and anyone facing another Arizona summer in the West Valley.
+
+## Newsletter and resources
+- [Newsletter](https://docnunez.com/newsletter.html): Occasional new-article notes by email.
+- [Resources](https://docnunez.com/resources.html): Trusted outside resources he recommends.
+- [Articles index](https://docnunez.com/articles.html): The full reading list.
